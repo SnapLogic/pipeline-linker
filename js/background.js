@@ -1,3 +1,4 @@
+// only enable the extension on SnapLogic Designer
 chrome.runtime.onInstalled.addListener(function () {
     chrome.declarativeContent.onPageChanged.removeRules(undefined, function () {
         chrome.declarativeContent.onPageChanged.addRules([{
@@ -11,7 +12,7 @@ chrome.runtime.onInstalled.addListener(function () {
     });
 });
 
-// when the PipelineLinker extension is clicked
+// when the PipelineLinker extension is triggered
 chrome.pageAction.onClicked.addListener(function (browserTab) {
     // execute the script that gets injected into page of the current tag
     chrome.tabs.executeScript(null, {file: "js/content.js"}, function () {
