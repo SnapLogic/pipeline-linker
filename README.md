@@ -2,7 +2,7 @@
 
 A simple Google Chrome Extension for the SnapLogic Designer that copies the direct link of the active Pipeline to your clipboard:
 
-![cropped](https://dl.dropboxusercontent.com/u/3519578/Screenshots/pipeline_linker_triggered_cropped.png)
+![recording](https://dl.dropboxusercontent.com/u/3519578/Screenshots/pipeline-linker-recording.gif)
 
 When installed, this Chrome Extension will initially be grayed out and disabled:
 
