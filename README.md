@@ -24,6 +24,10 @@ In your clipboard, a link like the following will be present and ready to be sha
 
 ![slack](https://i.imgur.com/JUhGzN6.png)
 
+## Read More
+
+Learn more about how the extension was developed here: http://www.robinhowlett.com/blog/2016/11/12/building-a-google-chrome-extension-including-keyboard-shortcuts-and-copying-to-the-clipboard/
+
 ## Deploying
 
 Build the ZIP file for the Google Web Store Developer Dashboard like so:
